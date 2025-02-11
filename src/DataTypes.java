@@ -36,3 +36,4 @@ public class DataTypes {
         System.out.println("Коллекция: " + names);
     }
 }
+
