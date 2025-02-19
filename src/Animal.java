@@ -1,4 +1,4 @@
-public class Animal {
+abstract class Animal implements AnimalBehavior {
     protected String name;
 
     public Animal(String name){
