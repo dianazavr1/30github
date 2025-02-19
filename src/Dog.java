@@ -4,15 +4,15 @@ public class Dog extends Animal{
     }
     @Override
     public void makeSound(){
-        System.out.println(name + "гавкает: Гав!");
+        System.out.println(getName() + "гавкает: Гав!");
     }
     public void wagTail(){
-        System.out.println(name + "виляет хвостом");
+        System.out.println(getName() + "виляет хвостом");
     }
     public void fetch(){
-        System.out.println(name + "приносит палку");
+        System.out.println(getName() + "приносит палку");
     }
     public void guard(){
-        System.out.println(name + "охраняет территорию");
+        System.out.println(getName() + "охраняет территорию");
     }
 }

@@ -4,16 +4,16 @@ public class Cat extends Animal{
     }
     @Override
     public void makeSound(){
-        System.out.println(name + "мяукает: Мяу!");
+        System.out.println(getName() + "мяукает: Мяу!");
     }
     public void purr(){
-        System.out.println(name + "мурлычет");
+        System.out.println(getName() + "мурлычет");
     }
     public void scratch(){
-        System.out.println(name + "царапает когтями");
+        System.out.println(getName() + "царапает когтями");
     }
     public void climb(){
-        System.out.println(name + "залезает на дерево");
+        System.out.println(getName() + "залезает на дерево");
     }
 
 
