@@ -1,4 +1,4 @@
-public class Main {
+public class DoublyLinkedList {
     public static void main(String[] args) {
         // Создаем узлы
         DoublyNode head = new DoublyNode(1);
